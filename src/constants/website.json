@@ -66,6 +66,24 @@
                             }
                         ]
                     ]
+                },
+                {
+                    "section_id": 4,
+                    "data": [
+                        {
+                            "image_url": "/images/flowers-with-girl.png",
+                            "image_alt": "flowers-with-girl" 
+                        }   
+                    ]
+                },
+                {
+                    "section_id": 5,
+                    "data": [
+                        {
+                            "image_url": "/images/flowers-with-girl.png",
+                            "image_alt": "flowers-with-girl" 
+                        }   
+                    ]
                 }
             ]
         },
