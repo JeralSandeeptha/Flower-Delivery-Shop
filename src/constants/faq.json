@@ -1,0 +1,35 @@
+{
+    "section_title":"Subscription FAQ",
+    "faqs": [
+        {
+            "id": 1,
+            "question":"How often will I get a new bouquet?",
+            "answer":"You can choose the frequency that works best for you—weekly, bi-weekly, or monthly. We’ll make sure fresh flowers arrive regularly, just as you scheduled."
+        },
+        {
+            "id": 2,
+            "question":"Can i send subscription like as a gift ?",
+            "answer":"Absolutely! Just enter the recipient’s name and address during checkout, and we’ll deliver beautiful flowers straight to their door with your chosen message."
+        },
+        {
+            "id": 3,
+            "question":"Can I choose which bouquet I get ?",
+            "answer":"Each delivery is a curated surprise featuring seasonal blooms. While you can't select specific bouquets in advance, every arrangement is designed to impress."
+        },
+        {
+            "id": 4,
+            "question":"Can I change the shipping address ?",
+            "answer":"Yes! You can update the shipping address anytime through your account settings—just make sure to do it before the next delivery date."
+        },
+        {
+            "id": 5,
+            "question":"What day will the subscription bouquet come?",
+            "answer":"Delivery days depend on your location and subscription plan, but you’ll get a notification before each shipment so you can plan ahead."
+        },
+        {
+            "id": 6,
+            "question":"Can I suspend my subscription to flowers ?",
+            "answer":"Yes, you can pause or skip a delivery whenever you need to. Just log into your account and update your subscription schedule."
+        }
+    ]
+}

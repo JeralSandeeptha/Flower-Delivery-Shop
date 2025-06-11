@@ -25,4 +25,8 @@
   .small-header {
     @apply text-3xl max-sm:text-[25px] font-[500];
   }
+
+  .faq-text {
+    @apply text-black font-[500];
+  }
 }

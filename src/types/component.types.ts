@@ -1,3 +1,8 @@
+export type FaqProps = {
+    question: string,
+    answer: string,
+}
+
 export type HeaderProps = {
     title: string    
 }
