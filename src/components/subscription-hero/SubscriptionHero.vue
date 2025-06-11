@@ -21,10 +21,10 @@ onMounted(() => {
       <img
         :src="image"
         :alt="data.pages[0].sections[1].data[0].image_alt"
-        class="w-full h-full object-cover"
+        class="w-full h-full object-cover border-[1px]"
       />
     </div>
-    <div class="p-18 max-sm:p-8 max-xs:p-5 flex flex-col gap-[1rem]">
+    <div class="p-18 max-sm:p-8 max-xs:p-5 flex flex-col gap-[1rem] border-[1px]">
       <Header title="Flower Subscription" />
       <div class="flex flex-col gap-[1rem]">
         <div

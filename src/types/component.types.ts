@@ -2,6 +2,10 @@ export type HeaderProps = {
     title: string    
 }
 
+export type SmallHeaderProps = {
+    title: string    
+}
+
 export type SubHeaderProps = {
     title: string    
 }
