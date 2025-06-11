@@ -1,0 +1,48 @@
+{
+    "website_name":"Flowers Delivery Website",
+    "pages": [
+        {
+            "page_id": 1,
+            "page_name":"Subscription",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "data": {
+                        "title":"Flower Subscription",
+                        "data":[
+                            {
+                                "id": 1,
+                                "title": "For Yourself",
+                                "description": "The perfect way to keep your home fresh and beautiful. Get a regular delivery of stunning bouquets straight to your doorstep without lifting a finger. Enjoy the beauty and fragrance of fresh flowers hassle-free!"
+                            },
+                            {
+                                "id": 2,
+                                "title": "As a Gift",
+                                "description": "Simply provide us with their address and let us take care of the rest, delivering beautiful blooms straight to their doorstep at the frequency and duration of your choosing."
+                            },
+                            {
+                                "id": 3,
+                                "title": "For a Business",
+                                "description": "Is a great way to create a pleasant atmosphere and leave a good impression on your guests and customers. Fresh floral arrangements will improve the aesthetic image of your business, and our service guarantees timely replacement without extra care or effort on your part."
+                            }
+                        ],
+                        "button_cta": {
+                            "button_name":"EXPLORE PLANS",
+                            "button_url":"/plans",
+                            "is_full_width": false
+                        }
+                    }
+                },
+                {
+                    "section_id": 2,
+                    "data": [
+                        {
+                            "hero_image_url": "/images/subscription-hero-image.svg",
+                            "image_alt":"subscription hero image"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
