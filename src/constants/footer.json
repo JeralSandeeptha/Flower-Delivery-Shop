@@ -1,0 +1,149 @@
+{
+    "section_name":"footer",
+    "sections": [
+        {
+            "section_id": 1,
+            "section_name": "Contact Form",
+            "description": "Remember to offer beautiful flowers from Kyiv LuxeBouquets Valentines Day, Mothers Day, Christmas... Reminds you 7 days before. No spam or sharing your address",
+            "placeholder_text": "Your Email",
+            "button_name": "REMIND"
+        },
+        {
+            "section_id": 2,
+            "section_name": "Contact",
+            "details": [
+                {
+                    "title": "Address",
+                    "description": "15/4 Khreshchatyk Street, Kyiv "
+                },
+                {
+                    "title": "Phone",
+                    "description": "+94798355772"
+                },
+                {
+                    "title": "General Enquiry",
+                    "description": "Kiev.Florist.Studio@gmail.com"
+                }
+            ]
+        },
+        {
+            "section_id": 3,
+            "section_name": "Follow Us",
+            "socials": [
+                {   
+                    "id": 1,
+                    "social_name": "Telegram",
+                    "social_url": "https://google.com",
+                    "social_image": "/icons/Telegram.png"
+                },
+                {   
+                    "id": 2,
+                    "social_name": "Instagram",
+                    "social_url": "https://google.com",
+                    "social_image": "/icons/Instagram.png"
+                },
+                {   
+                    "id": 3,
+                    "social_name": "Pinterest",
+                    "social_url": "https://google.com",
+                    "social_image": "/icons/Pinterest.png"
+                },
+                {   
+                    "id": 4,
+                    "social_name": "Facebook",
+                    "social_url": "https://google.com",
+                    "social_image": "/icons/Facebook.png"
+                },
+                {   
+                    "id": 5,
+                    "social_name": "Twitter",
+                    "social_url": "https://google.com",
+                    "social_image": "/icons/Twitter.png"
+                }
+            ]
+        },
+        {
+            "section_id": 3,
+            "section_name": "Shop",
+            "data": [
+                {
+                    "id": 1,
+                    "name": "All Products",
+                    "link": "/products"
+                },
+                {
+                    "id": 2,
+                    "name": "Fresh Flowers",
+                    "link": "/products"
+                },
+                {
+                    "id": 3,
+                    "name": "Dried Flowers",
+                    "link": "/products"
+                },
+                {
+                    "id": 3,
+                    "name": "Live Plans",
+                    "link": "/plants"
+                },
+                {
+                    "id": 4,
+                    "name": "Designer Vases",
+                    "link": "/vases"
+                },
+                {
+                    "id": 5,
+                    "name": "Arama Candies",
+                    "link": "/vases"
+                }
+            ]
+        },
+        {
+            "section_id": 4,
+            "section_name": "Service",
+            "data": [
+                {
+                    "id": 1,
+                    "name": "Flower Subscription",
+                    "link": "/subscription"
+                },
+                {
+                    "id": 2,
+                    "name": "Wedding & Event Decor",
+                    "link": "/wedding-and-events"
+                }
+            ]
+        },
+        {
+            "section_id": 5,
+            "section_name": "About Us",
+            "links": [
+                {
+                    "id": 1,
+                    "name": "Our Story",
+                    "link": "/our-story"
+                },
+                {
+                    "id": 2,
+                    "name": "Blog",
+                    "link": "/blog"
+                },
+                {
+                    "id": 3,
+                    "name": "Shipping & Returns",
+                    "link": "/shippings"
+                },
+                {
+                    "id": 4,
+                    "name": "Terms & Conditions",
+                    "link": "/terms-and-conditions"
+                },
+                {
+                    "id": 5,
+                    "name": "Privacy Policy",
+                    "link": "/privacy-policy"
+                }
+            ]
+        }
+    ]
+}

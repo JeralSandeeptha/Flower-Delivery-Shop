@@ -9,7 +9,7 @@ console.log(data.faqs);
 </script>
     
 <template>
-    <div class="w-full min-h-[100vh] max-md:px-8">
+    <div class="w-full min-h-[100vh] max-md:px-8 border-[1px]">
         <div class="max-w-[1200px] min-h-[100vh] mx-auto flex items-center justify-center py-14">
             
             <div class="max-w-[600px] w-[600px] min-h-[500px] mx-auto border-[2px] px-10 py-14">
