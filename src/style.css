@@ -17,6 +17,14 @@
   .btn-primary {
     @apply cursor-pointer border-2 py-4 px-6 text-sm;
   }
+  
+  .btn-secondary {
+    @apply cursor-pointer border-2 py-4 px-6 text-sm bg-transparent text-white;
+  }
+  
+  .btn-full {
+    @apply bg-black text-white cursor-pointer border-2 py-4 px-6 text-sm;
+  }
 
   .header {
     @apply text-4xl max-sm:text-[30px] font-[600];
