@@ -141,6 +141,18 @@
                             "button_url":"/subscription"
                         }
                     ]
+                },
+                {
+                    "section_id": 3,
+                    "section_name":"SERVICE",
+                    "data": [
+                        {
+                            "id": 1,
+                            "title":"Wedding & Event Decor",
+                            "description":"Let our team of expert florists and designers create stunning, on-trend floral décor for your special day. Trust us to bring your vision to life.",
+                            "btton_text":"INQUIRE NOW"
+                        }
+                    ]
                 }
             ]   
         }
