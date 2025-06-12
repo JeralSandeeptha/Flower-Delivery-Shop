@@ -1,9 +1,9 @@
 <script setup lang="ts">
-
+import WhyChooseUs from '../../components/why-choose-us/WhyChooseUs.vue';
 </script>
 
 <template>
-    Home Page
+    <WhyChooseUs />
 </template>
 
 <style scoped>
