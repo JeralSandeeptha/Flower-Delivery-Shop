@@ -23,6 +23,10 @@
     @apply cursor-pointer border-2 py-4 px-6 text-sm bg-transparent text-white;
   }
   
+  .btn-border {
+    @apply cursor-pointer border-2 py-4 px-6 text-sm bg-white text-black;
+  }
+  
   .btn-full {
     @apply bg-black text-white cursor-pointer border-2 py-4 px-6 text-sm;
   }

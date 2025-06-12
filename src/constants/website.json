@@ -123,6 +123,24 @@
                             "description": "With our subscription service tailored to your specific needs, you can enjoy the convenience of having beautiful bouquets delivered straight to your door at regular intervals. Our flexible service is perfect for busy individuals or those who want to ensure they always have fresh flowers on hand. You'll save time and money with this hassle-free solution to your floral needs." 
                         }
                     ]
+                },
+                {
+                    "section_id": 2,
+                    "section_name":"Our Service",
+                    "data": [
+                        {
+                            "section_id": 1,
+                            "image_url": "/images/flowers-with-girl.png",
+                            "image_name": "flower-with-girl"
+                        },
+                        {
+                            "subtitle":"SERVICE",
+                            "title":"Flower Subscription",
+                            "description":"Experience the convenience and savings of regular flower deliveries with our flexible subscription service - up to 30% more profitable than one-time purchases.",
+                            "button_text":"SUBSCRIBE NOW",
+                            "button_url":"/subscription"
+                        }
+                    ]
                 }
             ]   
         }
