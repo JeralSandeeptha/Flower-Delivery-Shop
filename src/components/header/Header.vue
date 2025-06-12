@@ -4,7 +4,7 @@ const props = defineProps<HeaderProps>();
 </script>
     
 <template>
-    <h1 class="header">{{ props.title }}</h1>
+    <h1 class="header" :style="{ color: props.isLight ? 'white' : 'black' }">{{ props.title }}</h1>
 </template>
 
 <style scoped>

@@ -4,7 +4,8 @@ export type FaqProps = {
 }
 
 export type HeaderProps = {
-    title: string    
+    title: string,
+    isLight?: boolean    
 }
 
 export type SmallHeaderProps = {
