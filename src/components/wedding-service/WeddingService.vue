@@ -6,7 +6,7 @@ import data from '../../constants/website.json';
 </script>
     
 <template>
-    <div class="bg-image w-full min-h-[100vh] flex flex-col items-center justify-center text-center gap-[2rem] max-md:p-8">
+    <div class="bg-image border-[1px] w-full min-h-[100vh] flex flex-col items-center justify-center text-center gap-[2rem] max-md:p-8">
         <h4 class="text-[white] faq-text">{{ data.pages[2].sections[2].esction_name }}</h4>
         <div class="flex flex-col gap-[1rem]">
             <Header 
