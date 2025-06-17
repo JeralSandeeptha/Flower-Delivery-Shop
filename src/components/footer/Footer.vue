@@ -1,13 +1,10 @@
 <script setup lang="ts">
 import Paragraph from '../paragraph/Paragraph.vue';
-import Button from '../button/Button.vue';
 import SubHeader from '../sub-header/SubHeader.vue';
 import data from '../../constants/footer.json';
 import { ref } from 'vue';
 
 const email = ref<string>();
-console.log(data.sections[2].socials[1].social_image);
-
 </script>
     
 <template>

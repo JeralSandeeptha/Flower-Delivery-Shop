@@ -6,10 +6,10 @@ import Paragraph from '../paragraph/Paragraph.vue';
 </script>
     
 <template>
-    <div class="w-full min-h-[100vh] grid grid-cols-2 max-md:grid-cols-1 border-[1px]">
+    <div class="w-full min-h-[100vh] grid grid-cols-2 max-md:grid-cols-1">
         
-        <div class="grid grid-rows-2">
-            <div class="flex flex-col items-center justify-center">
+        <div class="grid grid-rows-2 border-[1px]">
+            <div class="flex flex-col justify-center gap-[1rem] items-stretch border-[1px] px-[2rem]">
                 <Header 
                     title="To Contact Us"
                 />
@@ -24,34 +24,32 @@ import Paragraph from '../paragraph/Paragraph.vue';
                 </div>
             </div>
             <div class="grid grid-cols-2 max-md:grid-cols-1">
-                <div>
-                    
+                <div class="grid grid-rows-[1fr_3fr]">
+                    <div class="flex items-center justify-center border-[1px]">
+                        <Header title="Phone"/>
+                    </div>
+                    <div class="flex items-center justify-center border-[1px]">
+                        <SubHeader title="+380980099777"/>
+                    </div>
                 </div>
-                <div>
-                    
+                <div class="grid grid-rows-[1fr_3fr]">
+                    <div class="flex items-center justify-center border-[1px]">
+                        <Header title="Address"/>
+                    </div>
+                    <div class="flex items-center justify-center border-[1px]">
+                        <SubHeader title="Opening hours: 8 to 11 p.m."/>
+                    </div>
                 </div>
             </div>
         </div>
         
-        <div class="">
-            <div>
-                
-            </div>
-            <div>
-                <div>
-                    <Header 
-                        title="Follow Us"
-                    />
-                </div>
-                <div>
-                    
-                </div>    
-            </div>
-        </div>
+        <div class="bg-image"></div>
 
     </div>
 </template>
 
 <style scoped>
-
+.bg-image {
+    background-image: url('/public//images//Right\ colum.png');
+}
 </style>

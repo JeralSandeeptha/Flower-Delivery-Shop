@@ -229,6 +229,33 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "section_id": 6,
+                    "section_name":"Home Contact",
+                    "sections": [
+                        {
+                            "id": 1,
+                            "header": "To Contact Us",
+                            "sub_header": "We will call you back",
+                            "placeholder": "To Contact Us",
+                            "button_text": "BOOK A CALL"
+                        },
+                        {
+                            "id": 2,
+                            "section_name": "Phone",
+                            "number": "+380980099777"
+                        },
+                        {
+                            "id": 3,
+                            "section_name": "Address",
+                            "number": "Opening hours: 8 to 11 p.m."
+                        },
+                        {
+                            "id": 4,
+                            "image_url":"/images/Right colum.png"
+                        }
+                    ]
                 }
             ]   
         }
