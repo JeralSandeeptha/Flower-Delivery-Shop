@@ -8,7 +8,7 @@
         <div class="flex items-center min-h-[80px] justify-between w-full border-[1px]">
             <div class="border-[1px] flex min-h-[80px]">
                 <div class="flex items-center justify-center border-[1px] p-[1rem]">
-                    <router-link to="/products">Shop</router-link>
+                    <router-link to="/">Home</router-link>
                 </div>
                 <div class="flex items-center justify-center border-[1px] p-[1rem]">
                     <router-link to="/contact">Contact</router-link>
@@ -17,6 +17,9 @@
             <div class="border-[1px] flex min-h-[80px] min-h-[80px] border-[1px]">
                 <div class="flex items-center justify-center border-[1px] p-[1rem]">
                     <router-link to="/register">Sign In</router-link>
+                </div>
+                <div class="flex items-center justify-center border-[1px] p-[1rem]">
+                    <router-link to="/products">Shop</router-link>
                 </div>
                 <div class="flex items-center justify-center border-[1px] p-[1rem]">
                     <router-link to="/cart">Cart</router-link>

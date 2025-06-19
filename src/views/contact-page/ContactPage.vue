@@ -1,3 +1,11 @@
+<script setup lang="ts">
+import HomeContact from '../../components/home-contact/HomeContact.vue';
+</script>
+    
 <template>
-    <h1>Contact</h1>
+    <HomeContact />
 </template>
+
+<style scoped>
+
+</style>
