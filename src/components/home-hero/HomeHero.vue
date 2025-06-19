@@ -1,8 +1,20 @@
 <script setup lang="ts">
+import Header from '../header/Header.vue';
 </script>
 
 <template>
-  <div class="bg-image w-full min-h-[calc(100vh-80px)]"></div>
+  <div class="bg-image w-full min-h-[calc(100vh-80px)] flex items-center justify-center flex-col gap-[1rem]">
+    <Header
+      class="text-center text-white" 
+      title="We Deliver Your Flowers"
+      :isLight="true"
+    />
+    <Header
+      class="text-center text-white" 
+      title="In To Your Footsteps"
+      :isLight="true"
+    />
+  </div>
 </template>
 
 <style scoped>

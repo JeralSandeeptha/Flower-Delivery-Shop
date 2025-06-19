@@ -8,6 +8,7 @@ import SingleProductPage from "../views/single-product-page/SingleProductPage.vu
 import AboutPage from "../views/about-page/AboutPage.vue";
 import SubscriptionPage from "../views/subscription-page/SubscriptionPage.vue";
 import CheckoutPage from "../views/checkout-page/CheckoutPage.vue";
+import ContactPage from "../views/contact-page/ContactPage.vue";
 import PlansPage from "../components/plans-page/PlansPage.vue";
 
 const routes = createRouter({
@@ -17,6 +18,11 @@ const routes = createRouter({
             path: '/',
             name: 'Home',
             component: HomePage
+        },
+        {
+            path: '/contact',
+            name: 'Contact',
+            component: ContactPage
         },
         {
             path: '/cart',
