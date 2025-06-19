@@ -1,9 +1,9 @@
 <script setup lang="ts">
-
+import AboutOurStory from '../../components/about-our-story/AboutOurStory.vue';
 </script>
 
 <template>
-    About Page
+    <AboutOurStory />
 </template>
 
 <style scoped>
