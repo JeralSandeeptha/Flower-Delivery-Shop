@@ -45,7 +45,7 @@ const routes = createRouter({
             component: ProductsPage
         },
         {
-            path: '/product/:productId',
+            path: '/products/:productId',
             name: 'Product',
             component: SingleProductPage
         },

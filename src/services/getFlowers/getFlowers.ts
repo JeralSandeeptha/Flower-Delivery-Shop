@@ -1,6 +1,6 @@
 import contentfulClient from "../../config/contentful";
 
-const getFlower = async () => {
+const getFlowers = async () => {
     try {
         const response = await contentfulClient.getEntries({
             content_type: 'products' 
@@ -14,4 +14,4 @@ const getFlower = async () => {
     }
 }
 
-export default getFlower;
+export default getFlowers;

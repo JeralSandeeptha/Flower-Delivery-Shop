@@ -5,7 +5,7 @@ import { Flower } from "../../types/models.types.ts";
 import Header from "../header/Header.vue";
 import SubHeader from "../sub-header/SubHeader.vue";
 
-const flowers = ref<Flower>([]);
+const flowers = ref<Flower[]>([]);
 
 const getProducts = async () => {
   flowers.value = await getFlowers();

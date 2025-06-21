@@ -19,3 +19,7 @@ export type SignInWithUsernamePassword = {
 export type UpdatePassword = {
     email: string,
 }
+
+export type GetFlower = {
+    id: string,
+}
