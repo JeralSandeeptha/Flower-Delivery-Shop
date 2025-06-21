@@ -15,3 +15,7 @@ export type SignInWithUsernamePassword = {
     email: string,
     password: string,
 }
+
+export type UpdatePassword = {
+    email: string,
+}
