@@ -14,7 +14,7 @@
                     <router-link to="/contact">Contact</router-link>
                 </div>
                 <div class="flex items-center justify-center border-[1px] p-[1rem]">
-                    <router-link to="/register">Sign In</router-link>
+                    <router-link to="/login">Log In</router-link>
                 </div>
             </div>
             <div class="border-[1px] flex min-h-[80px] min-h-[80px] border-[1px]">
