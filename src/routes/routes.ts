@@ -10,6 +10,7 @@ import SubscriptionPage from "../views/subscription-page/SubscriptionPage.vue";
 import CheckoutPage from "../views/checkout-page/CheckoutPage.vue";
 import ContactPage from "../views/contact-page/ContactPage.vue";
 import PlansPage from "../components/plans-page/PlansPage.vue";
+import ForgotPassword from "../views/change-password/ForgotPassword.vue";
 
 const routes = createRouter({
     history: createWebHistory(),
@@ -32,7 +33,7 @@ const routes = createRouter({
         {
             path: '/login',
             name: 'Login',
-            component: LoginPage
+            component: LoginPage,
         },
         {
             path: '/register',
@@ -68,6 +69,11 @@ const routes = createRouter({
             path: '/plans',
             name: 'Plans',
             component: PlansPage
+        },
+        {
+            path: '/forgot-password',
+            name: 'Change Password',
+            component: ForgotPassword
         },
     ]
 });

@@ -17,6 +17,12 @@ const password = ref<string>('');
                 <Paragraph description="Use your email address and password to log to your account"/>
                 <input type="email" name="email" v-model="email" placeholder="Email Address" class="py-3 outline-none border-2 border-gray-200 p-2 text-gray-500 text-sm w-full font-light">
                 <input type="email" name="email" v-model="password" placeholder="Password" class="py-3 outline-none border-2 border-gray-200 p-2 text-gray-500 text-sm w-full font-light">
+                <div class="mt-[1rem] flex gap-[1rem] items-center">
+                    <Paragraph description="Don't remember password?"/>
+                    <router-link to="/forgot-password">
+                        <Paragraph description="Forgot Password" class="underline"/>
+                    </router-link>
+                </div>
                 <Button title="CONTINUE" :isFullWidth="true" class="bg-black text-white border-[black]"/>
             </div>
             <hr class="border-[1px] borde-[gray]">
