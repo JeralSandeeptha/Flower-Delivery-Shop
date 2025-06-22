@@ -6,6 +6,7 @@ const props = defineProps<ButtonProps>();
     
 <template>
     <button
+        @click="props.onClick"
         :style="{ width: props.isFullWidth ? '100%' : 'max-content' }"  
         class="btn-primary">{{ props.title }}</button>
 </template>
