@@ -2,11 +2,12 @@
 import { onMounted, ref } from 'vue';
 import Header from '../../components/header/Header.vue';
 import SubHeader from '../../components/sub-header/SubHeader.vue';
-import Paragraph from '../../components/paragraph/Paragraph.vue';
+import SimilarProducts from '../../components/similar-products/SimilarProducts.vue';
 import type { Flower } from '../../types/models.types';
 import getFlower from '../../services/getFlower/getFlower';
 import { useRoute } from 'vue-router';
 import { renderRichText } from '../../utils/others/renderRichText';
+import { watch } from 'vue';
 
 const flower = ref<Flower | undefined>(undefined);
 const qty = ref<number>(1);
@@ -23,6 +24,18 @@ const fetchFlower = async (id: string) => {
     }
 }
 
+const loadProduct = async () => {
+  const id = route.params.productId;
+  try {
+        console.log('Fetching flower with ID:', id);
+        const res = await getFlower({ id });
+        console.log('Received flower:', res);
+        flower.value = res;
+    } catch (err) {
+        console.error('Error fetching flower:', err);
+    }
+};
+
 const addToBasket = () => {
 
 }
@@ -30,6 +43,13 @@ const addToBasket = () => {
 onMounted(() => {
     fetchFlower(route.params.productId as string);
 });
+
+watch(
+  () => route.params.productId,
+  () => {
+    loadProduct(); // 🔥 re-fetch when id changes
+  }
+);
 </script>
 
 <template>
@@ -69,6 +89,7 @@ onMounted(() => {
         <button class="btn-full border-[1px] w-full" @click="addToBasket()">ADD TO BASKET</button>
       </div>
     </div>
+    <SimilarProducts />
 </template>
 
 <style scoped>
