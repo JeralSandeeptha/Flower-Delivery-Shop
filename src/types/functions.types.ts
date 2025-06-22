@@ -40,6 +40,12 @@ export type SignInWithUsernamePassword = {
 
 export type UpdatePassword = {
     email: string,
+    router?: Router,
+    isLoading: Ref<boolean>,
+    isSuccess: Ref<boolean>,
+    isError: Ref<boolean>,
+    showSuccess: () => void,
+    showError: () => void,
 }
 
 export type GetFlower = {
