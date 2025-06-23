@@ -26,8 +26,7 @@ const registerUser = () => {
         console.log('Please enter valid details');
         showValidation();
     } else {
-        console.log('Details');
-        console.log(email.value, password.value);
+        // console.log(email.value, password.value);
         registerUserWithEmailAndPassword({
             email: email.value,
             password: password.value,

@@ -36,6 +36,8 @@ export type SignInWithUsernamePassword = {
     isLoading: Ref<boolean>,
     isSuccess: Ref<boolean>,
     isError: Ref<boolean>,
+    showSuccess: () => void,
+    showError: () => void
 }
 
 export type UpdatePassword = {
