@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import data from '../../constants/faq.json';
-import Paragraph from '../../components/paragraph/Paragraph.vue';
 import Header from '../../components/header/Header.vue';
 import Faq from '../faq/Faq.vue';
 

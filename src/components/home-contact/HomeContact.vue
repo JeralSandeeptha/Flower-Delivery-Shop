@@ -1,8 +1,6 @@
 <script setup lang="ts">
-import data from '../../constants/website.json';
 import Header from '../header/Header.vue';
 import SubHeader from '../sub-header/SubHeader.vue';
-import Paragraph from '../paragraph/Paragraph.vue';
 </script>
     
 <template>

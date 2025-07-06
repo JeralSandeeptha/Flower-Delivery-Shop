@@ -2,9 +2,8 @@
 import Header from '../header/Header.vue';
 import { ref, onMounted } from "vue";
 import getFlowers from "../../services/getFlowers/getFlowers.ts";
-import { Flower } from "../../types/models.types.ts";
+import { type Flower } from "../../types/models.types.ts";
 import SubHeader from "../sub-header/SubHeader.vue";
-import { useRoute } from 'vue-router';
 
 const flowers = ref<Flower[]>([]);
 

@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import WeddingService from '../wedding-service/WeddingService.vue';
 import Paragraph from '../paragraph/Paragraph.vue';
 import Header from '../header/Header.vue';
 import data from '../../constants/website.json';
@@ -7,11 +6,11 @@ import data from '../../constants/website.json';
     
 <template>
     <div class="bg-image border-[1px] w-full min-h-[100vh] flex flex-col items-center justify-center text-center gap-[2rem] max-md:p-8">
-        <h4 class="text-[white] faq-text">{{ data.pages[2].sections[2].esction_name }}</h4>
+        <h4 class="text-[white] faq-text">{{ data.pages[2].sections[2]?.esction_name }}</h4>
         <div class="flex flex-col gap-[1rem]">
             <Header 
                 style="color: white !important"
-                :title="data.pages[2].sections[2].data[0].title"
+                :title="data.pages[2]?.sections[2]?.data[0].title"
             />
             <Paragraph 
                 class="text-white max-w-[500px]"

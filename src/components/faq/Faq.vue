@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import Paragraph from "../../components/paragraph/Paragraph.vue";
-import Header from "../../components/header/Header.vue";
-import { FaqProps } from '../../types/component.types.ts';
+import { type FaqProps } from '../../types/component.types.ts';
 import { ref } from "vue";
 import openIcon from '../../assets/icons/arrow-bottom-right.png';
 import closeIcon from '../../assets/icons/Vector.png';

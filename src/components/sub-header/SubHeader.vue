@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { SubHeaderProps } from '../../types/component.types.ts'; 
+import { type SubHeaderProps } from '../../types/component.types.ts'; 
 const props = defineProps<SubHeaderProps>();
 
 </script>

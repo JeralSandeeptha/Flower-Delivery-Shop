@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { SmallHeaderProps } from '../../types/component.types.ts';
+import { type SmallHeaderProps } from '../../types/component.types.ts';
 const props = defineProps<SmallHeaderProps>();
 </script>
     

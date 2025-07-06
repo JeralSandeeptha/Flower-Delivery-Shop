@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
 import getFlowers from "../../services/getFlowers/getFlowers.ts";
-import { Flower } from "../../types/models.types.ts";
+import { type Flower } from "../../types/models.types.ts";
 import Header from "../header/Header.vue";
 import SubHeader from "../sub-header/SubHeader.vue";
 

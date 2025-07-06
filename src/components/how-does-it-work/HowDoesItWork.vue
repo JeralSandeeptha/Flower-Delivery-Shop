@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import Header from '../header/Header.vue';
-import SubHeader from '../sub-header/SubHeader.vue';
 import Paragraph from '../paragraph/Paragraph.vue';
 import data from '../../constants/website.json';
 import SmallHeader from '../small-header/SmallHeader.vue';

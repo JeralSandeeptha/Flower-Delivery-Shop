@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ButtonProps } from '../../types/component.types.ts'; 
+import { type ButtonProps } from '../../types/component.types.ts'; 
 const props = defineProps<ButtonProps>();
 
 </script>

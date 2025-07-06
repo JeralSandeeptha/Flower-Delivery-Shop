@@ -28,17 +28,17 @@ onMounted(() => {
       <Header title="Flower Subscription" />
       <div class="flex flex-col gap-[1rem]">
         <div
-          v-for="item in data.pages[0].sections[0].data.data"
-          :key="data.pages[0].sections[0].data.data.id"
+          v-for="item in data.pages[0]?.sections[0]?.data?.data"
+          :key="data.pages[0]?.sections[0]?.data?.data?.id"
         >
           <SubHeader :title="item.title" />
           <Paragraph :description="item.description" :isBullet="true" />
         </div>
       </div>
-      <router-link :to="data.pages[0].sections[0].data.button_cta.button_url">
+      <router-link :to="data.pages[0]?.sections[0]?.data?.button_cta?.button_url">
         <Button
-          :title="data.pages[0].sections[0].data.button_cta.button_name"
-          :isFullWidth="data.pages[0].sections[0].data.button_cta.is_full_width"
+          :title="data.pages[0]?.sections[0]?.data?.button_cta?.button_name"
+          :isFullWidth="data.pages[0]?.sections[0]?.data?.button_cta?.is_full_width"
         />
       </router-link>
     </div>

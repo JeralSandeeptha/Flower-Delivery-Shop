@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { HeaderProps } from '../../types/component.types.ts';
+import { type HeaderProps } from '../../types/component.types.ts';
 const props = defineProps<HeaderProps>();
 </script>
     
