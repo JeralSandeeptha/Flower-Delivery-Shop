@@ -13,4 +13,9 @@ export default defineConfig({
       usePolling: true,   // Important: Enables file watching via polling inside Docker
     },
   },
+  test: {
+    globals: true,
+    environment: 'jsdom', // Simulate browser environment
+    setupFiles: './src/test/setup.ts', // Optional: setup file
+  },
 })
