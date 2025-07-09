@@ -1,10 +1,6 @@
 pipeline {
   agent any
 
-  tools {
-    nodejs: 'Nodejs'
-  }
-
   stages {
     stage('Cleanup Workspace') {
       steps {
